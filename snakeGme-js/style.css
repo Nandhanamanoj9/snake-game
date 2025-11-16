@@ -1,0 +1,9 @@
+h1,h2,.game-canvas{
+    text-align: center;;
+}
+/* .game-canvas{
+    background-color: black;
+} */
+ #score, #game-status {
+    color: red;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <h1><u>Snake Game</u></h1>
+    <h2>Score:<span id="score"></span></h2>
+
+    <!-- The <span> with id="score" is a placeholder where JavaScript will dynamically update and display the score value.
+🧠 Example:
+
+When the game starts, the score might be 0.
+You can use JavaScript like:
+
+document.getElementById("score").innerText = 0;
+Then every time the snake eats food:
+
+score++;
+document.getElementById("score").innerText = score;
+
+This way, the page updates like:
+Score: 1
+Score: 2
+Score: 3
+without reloading the whole page. -->
+
+
+    <div class="game-canvas">
+<canvas id="canvas" width="400" height="400"></canvas>
+
+    </div>
+    <h2>Game Status: <span id="game-status"></span></h2>
+     <!-- 🧩 What is <canvas>?
+
+    ✅ <canvas> is not a keyword,
+    it’s an HTML element (or tag) — just like <div>, <p>,
+    <h1>, etc.
+
+    It was introduced in HTML5 to let you draw graphics using JavaScript. -->
+    <!-- Think of it as a blank drawing board on your webpage. --> 
+
+
+    <script src="./snake.js"></script>
+</body>
+
+</html>
